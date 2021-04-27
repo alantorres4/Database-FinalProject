@@ -1,0 +1,141 @@
+body{
+	background-color: #43686e !important;
+  color: #cce6dd;
+  font-family: sans-serif, monospace, serif;
+}
+
+.even-columns{
+	display: flex;
+  gap: 1em;
+}
+
+.col{
+	flex-basis: 100%;
+	background-color: #7fadb3;
+	color: white;
+  border-radius: 4px;
+  border: 4px double #cccccc;
+	text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+
+  transition: all .15s ease-in-out;
+}
+
+.col:hover{
+	background-color: #9dd9e0;
+	color: #0b3338;
+}
+
+.welcome{
+	width: 100%;
+	font-size: 600%;
+  text-align: center;
+}
+
+form{
+	display: table;
+}
+
+p{
+	display: table-row;
+}
+
+label{
+	display: table-cell;
+}
+
+/*input{
+	display: table-cell;
+	padding: 5px;
+}
+*/
+
+input[type=text]{
+	display: table-cell;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	display: table-cell;
+	box-sizing: border-box; 
+
+	width: 100%;
+	background-color: #6fd1cf !important;
+	border: 0 none !important;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input[type=submit]:hover{
+	background-color: #4c9190 !important;
+}
+
+.goBack{
+	font-size: 150%;
+	text-decoration: none;
+}
+
+.goBack:visited{
+	color: #95a5bf;
+	text-decoration: none;
+}
+
+.goBack:hover{
+	color: #b7e4e8;
+}
+a{
+	text-decoration: none;
+}
+
+.bottomMessage{
+	width: 100vw;
+	text-align: center;
+	
+}
+
+table{
+	margin: 2em auto;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+th, td {
+  padding: 4px 8px;
+}
+
+thead th {
+  background: #8388eb;
+  text-align: left;
+  font-size: 15px;
+  color: #2c307d;
+}
+
+tr {
+  border-right: 2px solid #95b3d7;
+	color: #194738;
+	background-color: #74a0a3;
+}
+
+tbody tr {
+  border-bottom: 1px solid #95b3d7;
+}
+
+tbody tr:nth-child(odd) {
+  background: #dbe5f0;
+	color: #194738 !important;
+}
+
+tbody th, tbody tr:nth-child(even) td {
+	border-right: 1px solid #95b3d7;
+}
+
